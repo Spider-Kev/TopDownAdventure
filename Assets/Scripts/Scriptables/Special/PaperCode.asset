@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090a9c694892d444fa666afcf84f18c1, type: 3}
+  m_Name: PaperCode
+  m_EditorClassIdentifier: 
+  itemId: 0
+  itemName: Programmer Paper Code
+  price: 50000
+  itemIcon: {fileID: 21300000, guid: 11e9a5e0117094c52a7185c16174059b, type: 3}
+  description: The ultimate guide to became part of the programmer teams ... or you
+    can sell it and pass forward
+  clipUse: {fileID: 0}

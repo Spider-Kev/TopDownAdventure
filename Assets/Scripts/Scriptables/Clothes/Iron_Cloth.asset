@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf91759ca8244bb5aa6789d38fee776, type: 3}
+  m_Name: Iron_Cloth
+  m_EditorClassIdentifier: 
+  itemId: 0
+  itemName: Iron Armor
+  price: 300
+  itemIcon: {fileID: 21300000, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  description: Defender of the white tree... ok no, it's just a cool armor
+  clipUse: {fileID: 8300000, guid: abdd2b2b6a30d4636adaf0789df7f588, type: 3}
+  armL: {fileID: 21300024, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  armR: {fileID: 21300022, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  finger: {fileID: 21300040, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  foreArmL: {fileID: 21300028, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  foreArmR: {fileID: 21300026, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  handL: {fileID: 21300034, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  handR: {fileID: 21300036, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  leg: {fileID: 21300030, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  pelvis: {fileID: 21300006, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  shin: {fileID: 21300032, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  sleeveR: {fileID: 21300038, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
+  torso: {fileID: 21300000, guid: 69e4bcfbf6254dbba5f9b3e4516dfb52, type: 3}
