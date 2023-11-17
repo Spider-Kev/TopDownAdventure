@@ -46,7 +46,7 @@ public class LoadScene : MonoBehaviour
         while (!asyncLoad.isDone)
         {
             float progress = asyncLoad.progress*100;
-            if (asyncLoad.progress >= 0.95f)
+            if (asyncLoad.progress >= 0.9f)
             {
                 asyncLoad.allowSceneActivation = true;
             }

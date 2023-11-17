@@ -52,7 +52,7 @@ public class InteractionSystem : MonoBehaviour
         
         if (InputHandler.action)
         {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, characterAnimation.dir, 2f, mask);
+            RaycastHit2D hit = Physics2D.CircleCast(transform.position, 1f, Vector2.zero, 0,mask);
             if (hit.collider!=null)
             {
                 IInteractable interactableObject = hit.collider.GetComponent<IInteractable>();

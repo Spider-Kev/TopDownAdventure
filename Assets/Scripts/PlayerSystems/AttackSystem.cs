@@ -86,7 +86,7 @@ public class AttackSystem : MonoBehaviour
             EventManager.TriggerEvent("Attacking", assignedWeapon);
             ItemWeaponMelee weapon = (ItemWeaponMelee)assignedWeapon; 
 
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, characterAnimation.dir, weapon.damageRange, mask);
+            RaycastHit2D hit = Physics2D.CircleCast(transform.position, 1,Vector2.zero, 0, mask);
             if (hit.collider!=null)
             {
                 IDamagable damageableObject = hit.collider.GetComponent<IDamagable>();
